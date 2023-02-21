@@ -48,6 +48,7 @@ public class Main {
 
     //O(nLog(n)) time | O(1) space
     public static int[] twoSum3(int[] array, int targetSum) {
+        //Arrays.sort(array)
         int left = 0;
         int right = array.length - 1;
         while (left < right) {
